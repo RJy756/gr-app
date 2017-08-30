@@ -1,0 +1,186 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  font-family: -apple-system, "苹方-简", "Helvetica Neue", Helvetica, sans-serif;
+  background: #fff;
+}
+body {
+  font-size: 12px;
+  font-size: 0.16rem;
+  height: 100%;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container .banner {
+  width: 750px;
+  width: 10rem;
+  height: 901px;
+  height: 12.01333rem;
+  background: url("../images/banner.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.container .btn {
+  padding: 0 70px;
+  padding: 0 0.93333rem;
+}
+.container .btn a {
+  display: block;
+  font-size: 40px;
+  font-size: 0.53333rem;
+  color: #fff;
+  background: #283c6a;
+  line-height: 110px;
+  line-height: 1.46667rem;
+  text-align: center;
+  border-radius: 10px;
+  border-radius: 0.13333rem;
+}
+.container .detail {
+  padding: 20px 30px 10px 25px;
+  padding: 0.26667rem 0.4rem 0.13333rem 0.33333rem;
+  font-size: 28px;
+  font-size: 0.37333rem;
+  color: #888;
+  text-align: justify;
+  line-height: 1.6;
+}
+.container .detail .title {
+  position: relative;
+  color: #000;
+  padding: 30px 20px 10px 20px;
+  padding: 0.4rem 0.26667rem 0.13333rem 0.26667rem;
+}
+.container .detail .title:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  height: 40%;
+  top: 35px;
+  top: 0.46667rem;
+  width: 10px;
+  width: 0.13333rem;
+  background: #283c6a;
+  border-radius: 5px;
+  border-radius: 0.06667rem;
+}
+.container .detail .index {
+  position: relative;
+  padding-bottom: 30px;
+  padding-bottom: 0.4rem;
+}
+.container .detail .index:not(:last-child):after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: #e3e3e3;
+  border-radius: 5px;
+  border-radius: 0.06667rem;
+}
+.container .detail .index .layer {
+  color: #000;
+}
+.container .detail .index .layer .marker {
+  color: #fff;
+  background: #283c6a;
+  font-size: 22px;
+  font-size: 0.29333rem;
+  line-height: 22px;
+  line-height: 0.29333rem;
+  padding: 3px 30px;
+  padding: 0.04rem 0.4rem;
+  border-radius: 5px 0 0 5px;
+  border-radius: 0.06667rem 0 0 0.06667rem;
+  position: relative;
+  margin-right: 30px;
+  margin-right: 0.4rem;
+}
+.container .detail .index .layer .marker:after {
+  position: absolute;
+  content: '';
+  right: -34px;
+  right: -0.45333rem;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-width: 17px;
+  border-width: 0.22667rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #283c6a;
+}
+.container .detail .special {
+  display: block;
+  padding: 10px 0 20px 0;
+  padding: 0.13333rem 0 0.26667rem 0;
+  width: 648px;
+  width: 8.64rem;
+  margin: 0 auto;
+}
+.container .detail .subTitle-content {
+  position: relative;
+  padding-bottom: 20px;
+  padding-bottom: 0.26667rem;
+  /*    .marker-one {
+            position: absolute;
+            left: 0;
+          }*/
+}
+.container .detail .subTitle-content .marker-two {
+  position: absolute;
+  top: 0;
+  right: 80px;
+  right: 1.06667rem;
+}
+.container .detail .marker {
+  color: #fff;
+  background: #283c6a;
+  font-size: 22px;
+  font-size: 0.29333rem;
+  line-height: 22px;
+  line-height: 0.29333rem;
+  padding: 3px 30px;
+  padding: 0.04rem 0.4rem;
+  border-radius: 5px 0 0 5px;
+  border-radius: 0.06667rem 0 0 0.06667rem;
+  position: relative;
+  margin-right: 30px;
+  margin-right: 0.4rem;
+}
+.container .detail .marker:after {
+  position: absolute;
+  content: '';
+  right: -34px;
+  right: -0.45333rem;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-width: 17px;
+  border-width: 0.22667rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #283c6a;
+}
+.container .detail .subTitle {
+  font-size: 26px;
+  font-size: 0.34667rem;
+}

@@ -1,0 +1,84 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+$browser-default-font-size: 32 !default;
+
+// Type
+// --------------------------------------------------
+$font-family-default: "Helvetica Neue", Helvetica, sans-serif !default;
+
+$font-size-default: 14px !default;
+$font-weight: 500 !default;
+$font-weight-light: 400 !default;
+$line-height-default: 20px !default;
+
+
+// Colors
+// --------------------------------------------------
+
+// Main theme colors
+$primary-color: #428bca !default;
+$chrome-color:  #fff !default;
+
+// Action colors
+$default-color:  #fff !default;
+$positive-color: #5cb85c !default;
+$negative-color: #d9534f !default;
+
+
+// Bars
+// --------------------------------------------------
+
+$bar-base-height:  35px !default;
+$bar-tab-height:   35px !default;
+$bar-side-spacing: 10px !default;
+
+
+// Cards
+// --------------------------------------------------
+
+$card-bg: #fff !default;
+
+
+// Buttons
+// --------------------------------------------------
+
+$button-font-size: 12px !default;
+
+// Inputs
+// --------------------------------------------------
+
+$input-font-size: 16px !default;
+$input-line-height: 20px !default;
+$input-height: 35px !default;
+$input-border-radius: 3px !default;
+
+$input-margin-top: 0px !default;
+$input-margin-right: 10px !default;
+$input-margin-bottom: 10px !default;
+$input-margin-left: 0px !default;
+
+$input-padding-top: 0px !default;
+$input-padding-right: 10px !default;
+$input-padding-bottom: 0px !default;
+$input-padding-left: 10px !default;
+
+// Transitions
+// --------------------------------------------------
+
+$timing-fuction: cubic-bezier(.1,.5,.1,1) !default; // Inspired by @c2prods
+
+
+// Borders
+// --------------------------------------------------
+
+$border-default: 1px solid #dfdfdf !default;
+$border-radius: 6px !default;
+
+
+// Table view
+// --------------------------------------------------
+$table-view-margin-top: 10px !default;
+$table-view-margin-bottom: 10px !default;

@@ -1,0 +1,1 @@
+$(function(){window.onload=(FastClick.attach(document.body),void $(".spinner-content").hide())});

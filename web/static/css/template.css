@@ -1,0 +1,10 @@
+.section {
+  padding: 10px;
+}
+
+.content {
+  background: #eee;
+  padding: 10px;
+  border-radius:4px;
+  border: 1px solid #ddd;
+}

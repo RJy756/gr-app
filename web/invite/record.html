@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="">
+  <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+
+  <title>邀请记录</title>
+
+  <!-- rev-hash -->
+  <!-- build:css css/common.css -->
+  <link rel="stylesheet" href="../static/css/common.css">
+  <!-- endbuild -->
+  <!-- end -->
+
+  <!-- rev-hash -->
+  <!-- build:css css/record.css -->
+  <link rel="stylesheet" href="css/invitation-record.css">
+  <!-- endbuild -->
+  <!-- end -->
+</head>
+<body>
+<header>
+  <div class="header-title">我的奖励（元）</div>
+  <div class="count"><span class="num" id="amount">0</span></div>
+</header>
+<section class="container">
+  <div class="info-table">
+    <table class="header-table">
+      <colgroup>
+        <col width="40%">
+        <col width="30%">
+        <col width="30%">
+      </colgroup>
+      <tr>
+        <td>邀请注册时间</td>
+        <td>好友手机号</td>
+        <td>是否投资</td>
+      </tr>
+    </table>
+    <div class="body-table">
+      <table>
+        <colgroup>
+          <col width="40%">
+          <col width="30%">
+          <col width="30%">
+        </colgroup>
+        <tbody id="table-info">
+
+        </tbody>
+      </table>
+    </div>
+    <div class="no-record">
+      <img src="images/invitation-record/error-icon.png">
+      还没有邀请记录哟，快去邀请好友赚钱吧~
+    </div>
+  </div>
+</section>
+<div class="spinner-content">
+  <div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+</div>
+
+<!-- rev-hash -->
+<!-- build:js js/vendor.js -->
+<script src="../static/jquery/jquery-2.1.4.min.js"></script>
+<script src="../static/js/flexible/flexible_css.js"></script>
+<script src="../static/js/flexible/flexible.js"></script>
+<script src="js/jquery.qrcode.min.js"></script>
+<script src="../static/jquery/fastclick/fastclick.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<!-- rev-hash -->
+<!-- build:js js/jsBridge.js -->
+<script src="../static/jsBridge/ddjr-jsbridge.js"></script>
+<script src="../static/jsBridge/ddjr-jsbridge-form.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<!-- rev-hash -->
+<!-- build:js js/record.js -->
+<script src="js/invitation-record.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+</body>
+</html>

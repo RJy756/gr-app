@@ -1,0 +1,200 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  font-family: -apple-system, "苹方-简", "Helvetica Neue", Helvetica, sans-serif;
+  background: #fdcc56;
+}
+body {
+  font-size: 12px;
+  font-size: 0.16rem;
+  height: 100%;
+  background: #fdcc56;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  background: #fdcc56;
+}
+.container .banner {
+  width: 750px;
+  width: 10rem;
+  height: 612px;
+  height: 8.16rem;
+  background: url("../images/banner.jpg") 0 0 no-repeat;
+  background-size: 100% auto;
+}
+.container .card1 {
+  position: relative;
+  z-index: 0;
+  background: url("../images/card1.jpg") 0 0 no-repeat;
+  background-size: 100% auto;
+  width: 750px;
+  width: 10rem;
+  height: 268px;
+  height: 3.57333rem;
+  margin: 0 auto;
+}
+.container .card1 .shadowbg {
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  bottom: 82px;
+  bottom: 1.09333rem;
+  background: url("../images/inner_bg.png") 0 0 no-repeat;
+  background-size: 100% auto;
+  width: 650px;
+  width: 8.66667rem;
+  height: 159px;
+  height: 2.12rem;
+  margin: auto;
+}
+.container .card1 .showbox {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 109px;
+  bottom: 1.45333rem;
+  width: 517px;
+  width: 6.89333rem;
+  height: 105px;
+  height: 1.4rem;
+  overflow: hidden;
+  font-size: 24px;
+  font-size: 0.32rem;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  letter-spacing: 0.01867rem;
+  text-align: left;
+  color: #ffffff;
+}
+.container .card1 .showbox ul li {
+  text-align: center;
+}
+.container .card1 .showbox ul li span {
+  white-space: nowrap;
+}
+.container .card1 .showbox ul .tleft {
+  text-align: left;
+}
+.container .card1 .showbox ul .tleft span {
+  text-align: inherit;
+  margin-left: 1px;
+}
+@media screen and (max-width: 374px) {
+  .container .card1 .showbox {
+    width: 610px;
+    width: 8.13333rem;
+  }
+  .container .card1 .showbox ul li {
+    line-height: 1.35;
+  }
+  .container .card1 .showbox ul li span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-transform-origin: center;
+    -webkit-transform: scale(0.86);
+  }
+}
+.container .card2 {
+  position: relative;
+  background: url("../images/card2.jpg") 0 0 no-repeat;
+  background-size: 100% auto;
+  width: 750px;
+  width: 10rem;
+  height: 710px;
+  height: 9.46667rem;
+  margin: 0 auto;
+}
+.container .card2 .btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  bottom: 0.33333rem;
+  margin: 0 auto;
+  width: 550px;
+  width: 7.33333rem;
+  height: 80px;
+  height: 1.06667rem;
+}
+.container .card3 {
+  position: relative;
+  background-size: 100% auto;
+  width: 624px;
+  width: 8.32rem;
+  min-height: 420px;
+  min-height: 5.6rem;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-top: 0.32rem;
+}
+.container .card3 .card-title {
+  margin: 0 auto;
+  padding: 14px 0 16px;
+  padding: 0.18667rem 0 0.21333rem;
+  font-size: 30px;
+  font-size: 0.4rem;
+  font-weight: bold;
+  text-align: center;
+  color: #f95f3e;
+}
+.container .card3 .rule {
+  width: 624px;
+  width: 8.32rem;
+  min-height: 420px;
+  min-height: 5.6rem;
+  border-radius: 10px;
+  border-radius: 0.13333rem;
+  background-color: #fff0bd;
+  padding: 0 28px 28px;
+  padding: 0 0.37333rem 0.37333rem;
+}
+.container .card3 .rule p {
+  font-size: 24px;
+  font-size: 0.32rem;
+  line-height: 36px;
+  line-height: 0.48rem;
+  color: #676767;
+  font-weight: bold;
+  text-align: justify;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+.container footer {
+  text-align: center;
+  font-size: 24px;
+  font-size: 0.32rem;
+  padding: 30px 0;
+  padding: 0.4rem 0;
+  line-height: 1.5;
+}
+.container footer p {
+  font-size: 24px;
+  font-size: 0.32rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 2px 2px rgba(254, 97, 64, 0.24);
+  text-shadow: 0px 0.02667rem 0.02667rem rgba(254, 97, 64, 0.24);
+}

@@ -1,0 +1,216 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  font-family: -apple-system, "苹方-简", "Helvetica Neue", Helvetica, sans-serif;
+  background: #fdc848;
+}
+body {
+  font-size: 12px;
+  font-size: 0.16rem;
+  background: #fdc848;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+.container .block1 {
+  width: 750px;
+  width: 10rem;
+  height: 600px;
+  height: 8rem;
+  background: url("../images/banner1.jpg") 0 0 no-repeat;
+  background-size: 100% auto;
+  margin-bottom: 45px;
+  margin-bottom: 0.6rem;
+}
+.container .form-group {
+  width: 650px;
+  width: 8.66667rem;
+  min-height: 580px;
+  min-height: 7.73333rem;
+  text-align: center;
+  margin: 20px auto;
+  margin: 0.26667rem auto;
+}
+.container .form-group .form-item input {
+  border: none;
+  width: 100%;
+  height: 98px;
+  height: 1.30667rem;
+  padding-left: 20px;
+  padding-left: 0.26667rem;
+  margin-bottom: 39px;
+  margin-bottom: 0.52rem;
+  border-radius: 12px;
+  border-radius: 0.16rem;
+  background-color: #ffffff;
+}
+.container .form-group .vCode-content {
+  position: relative;
+}
+.container .form-group .vCode-content .btn-get-vCode {
+  position: absolute;
+  top: 22px;
+  top: 0.29333rem;
+  right: 10px;
+  right: 0.13333rem;
+  color: #fea71b;
+  line-height: 54px;
+  line-height: 0.72rem;
+  font-size: 26px;
+  font-size: 0.34667rem;
+  border-left: 1px solid #fea71b;
+  padding: 0 20px 0 0;
+  padding: 0 0.26667rem 0 0;
+  width: 200px;
+  width: 2.66667rem;
+  text-align: right;
+}
+.container .form-group .vCode-content .btn-get-vCode.disabled {
+  color: #ddd;
+}
+.container .form-group .btn-register {
+  width: 650px;
+  width: 8.66667rem;
+  height: 98px;
+  height: 1.30667rem;
+  line-height: 98px;
+  line-height: 1.30667rem;
+  border-radius: 49px;
+  border-radius: 0.65333rem;
+  background-color: #f34429;
+  box-shadow: 0 4px 5.9px 0.1px rgba(221, 58, 32, 0.4);
+  box-shadow: 0 0.05333rem 0.07867rem 0.1px rgba(221, 58, 32, 0.4);
+  font-family: PingFang-SC;
+  font-size: 36px;
+  font-size: 0.48rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+.container .form-group .tips {
+  margin-top: 25px;
+  margin-top: 0.33333rem;
+  width: 100%;
+  height: 25px;
+  height: 0.33333rem;
+  font-family: PingFang-SC;
+  font-size: 26px;
+  font-size: 0.34667rem;
+  font-weight: 500;
+  text-align: center;
+  color: #666;
+}
+.container .form-group .tips .colfff {
+  color: #fff;
+}
+.container .block3 {
+  width: 706px;
+  width: 9.41333rem;
+  height: 960px;
+  height: 12.8rem;
+  margin: 0 auto;
+  background: url("../images/advantage.png") 0 0 no-repeat;
+  background-size: 100% auto;
+}
+.container footer {
+  margin-top: -40px;
+  margin-top: -0.53333rem;
+  color: #666666;
+  text-align: center;
+  font-size: 24px;
+  font-size: 0.32rem;
+  font-weight: 500;
+  padding: 30px 0;
+  padding: 0.4rem 0;
+  line-height: 1.5;
+}
+.container footer .colfd6 {
+  color: #fd6b0a;
+}
+.container .alert-box,
+.container .alert-box2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .alert-box .alert-content,
+.container .alert-box2 .alert-content {
+  position: relative;
+  top: 40%;
+  background: #363636;
+  color: #fefefe;
+  width: 532px;
+  width: 7.09333rem;
+  height: 236px;
+  height: 3.14667rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  border-radius: 0.06667rem;
+}
+.container .alert-box .alert-content .btn-close-alert,
+.container .alert-box2 .alert-content .btn-close-alert {
+  position: absolute;
+  width: 37px;
+  width: 0.49333rem;
+  display: block;
+  top: 0;
+  right: 0;
+  padding: 15px 15px 0 0;
+  padding: 0.2rem 0.2rem 0 0;
+}
+.container .alert-box .alert-content .alert-text,
+.container .alert-box2 .alert-content .alert-text {
+  font-size: 30px;
+  font-size: 0.4rem;
+  line-height: 230px;
+  line-height: 3.06667rem;
+}
+.container .alert-box2 .alert-content {
+  height: 350px;
+  height: 4.66667rem;
+}
+.container .alert-box2 .alert-content .btn-left,
+.container .alert-box2 .alert-content .btn-right {
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  bottom: 0;
+  padding: 30px 0;
+  padding: 0.4rem 0;
+  border-top: 1px solid #000;
+}
+.container .alert-box2 .alert-content .btn-left {
+  left: 0;
+}
+.container .alert-box2 .alert-content .btn-right {
+  right: 0;
+  border-left: 1px solid #000;
+}
+.container .alert-box2 .alert-content .alert-text {
+  font-size: 30px;
+  font-size: 0.4rem;
+  line-height: 300px;
+  line-height: 4rem;
+}

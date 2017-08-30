@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="">
+  <meta name="format-detection" content="telephone=no">
+  <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+
+  <title>新手注册</title>
+  <!-- rev-hash -->
+  <!-- build:css css/common.css -->
+  <link rel="stylesheet" href="../static/css/common.css">
+  <!-- endbuild -->
+  <!-- end -->
+
+  <!-- rev-hash -->
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="css/index.css">
+  <!-- endbuild -->
+  <!-- end -->
+</head>
+<body>
+<div class="container">
+  <div class="banner"></div>
+  <div class="card1">
+    <div class="shadowbg"></div>
+    <div class="showbox">
+      <ul class="scrollbox">
+        <li><span>&emsp;经过长期部署和细心规划， 由杭州广融信息</span></li>
+        <li><span>技术有限公司负责筹建的互联网金融信息服务</span></li>
+        <li><span>平台——广融理财，已完成全面开发和多轮内</span></li>
+        <li><span>测，将于2017年8月18日上线，全面进入试运</span></li>
+        <li><span>营阶段。</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="card2">
+    <div class="btn btn1"></div>
+  </div>
+  <div class="card3">
+    <div class="rule">
+      <h3 class="card-title">活动说明</h3>
+      <p>1. 注册所得投资大礼包可在【我】-【我的红包】-【可用红包】中查看；</p>
+      <p>2.	新手标期限15天，每个账户限购10000元；</p>
+      <p>3.	本活动即日起生效，活动结束时间以广融理财app官方公告为准，如果活动出现漏洞与错误，广融理财有权对活动进行修改和完善，并拥有对活动的最终解释权；</p>
+      <p>4.	如对本次活动有任何疑问，请拨打广融理财客服热线。</p>
+    </div>
+  </div>
+  <footer>
+    <p>活动最终解释权归广融理财所有</p>
+    <P>如有问题可拨打客服热线400-150-9858</P>
+  </footer>
+</div>
+<div class="spinner-content">
+  <div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+</div>
+<!-- rev-hash -->
+<!-- build:js js/vendor.js -->
+<script src="../static/jquery/jquery-2.1.4.min.js"></script>
+<script src="../static/js/flexible/flexible_css.js"></script>
+<script src="../static/js/flexible/flexible.js"></script>
+<script src="../static/jquery/fastclick/fastclick.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<!-- rev-hash -->
+<!-- build:js js/jsBridge.js -->
+<script src="../static/jsBridge/ddjr-jsbridge.js"></script>
+<script src="../static/jsBridge/ddjr-jsbridge-form.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<!-- rev-hash -->
+<!-- build:js js/main.js -->
+<script src="js/index.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<script>
+  function autoScroll(obj, ul){
+    var lineH=-parseInt($(obj).css("fontSize"))*1.5+"px";
+    $(obj).find(ul).animate({
+      marginTop : lineH
+    },500,function(){
+      $(this).css({marginTop : "0px"}).find("li:first").appendTo(this);
+    });
+  }
+  setInterval('autoScroll(".showbox", ".scrollbox")',3000);
+</script>
+</body>
+</html>

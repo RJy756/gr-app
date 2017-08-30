@@ -1,0 +1,1 @@
+$(function(){connectWebViewJavascriptBridge(function(n){n.registerHandler("returnBackHandler",function(n,i){var t={};t.isFirstPage=!0,i(t)}),window.onload=(FastClick.attach(document.body),void $(".spinner-content").hide()),$(".btn1").click(function(){var n=$.jsBridge({id:"jsBridgeForm",method:"GET",action:"ddjr://j",inputs:[{name:"t",value:"cp"}]});$.submitJsBridgeForm(n)})})});

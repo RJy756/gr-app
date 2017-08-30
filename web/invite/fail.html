@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="">
+  <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+
+  <title>广融理财</title>
+  <!-- rev-hash -->
+  <!-- build:css css/common.css -->
+  <link rel="stylesheet" href="../static/css/common.css">
+  <!-- endbuild -->
+  <!-- end -->
+
+  <!-- rev-hash -->
+  <!-- build:css css/register.css -->
+  <link rel="stylesheet" href="css/register.css">
+  <!-- endbuild -->
+  <!-- end -->
+</head>
+<body>
+<section class="container">
+  <div class="package">
+    <img src="images/package2.png">
+  </div>
+  <div class="text1">您已经注册了广融理财，快来投资吧！</div>
+  <div class="btn-download">
+    <a href="">
+      马上投资
+    </a>
+  </div>
+</section>
+<div class="spinner-content">
+  <div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+</div>
+
+<!-- rev-hash -->
+<!-- build:js js/register-vendor.js -->
+<script src="../static/jquery/jquery-2.1.4.min.js"></script>
+<script src="../static/js/flexible/flexible_css.js"></script>
+<script src="../static/js/flexible/flexible.js"></script>
+<script src="../static/jquery/fastclick/fastclick.js"></script>
+<script src="../static/js/arg.js/dist/arg-1.2.min.js"></script>
+<script src="../static/jquery/js-cookie/src/js.cookie.js"></script>
+<!-- endbuild -->
+<!-- end -->
+
+<script>
+  $(function () {
+    FastClick.attach(document.body);
+    function loaded() {
+      $('.spinner-content').hide();
+    }
+
+    window.onload = loaded();
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+html {
+  min-height: 100%;
+  font-family: -apple-system, "苹方-简", "Helvetica Neue", Helvetica, sans-serif;
+  background: #89defb;
+  height: 100%;
+  -webkit-user-select: none;
+}
+
+body {
+  font-size: 12px;
+  height: 100%;
+  background: #89defb;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url("../images/invitation-record/banner.png") 0 0 no-repeat;
+  background-size: 100% auto;
+  height: 310px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  .header-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+  }
+  .count {
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    .num {
+      font-weight: 500;
+      font-size: 70px;
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 20px 30px 0 30px;
+  .info-table {
+    border-radius: 14px;
+    background: #fff;
+    padding: 0 40px;
+    font-size: 28px;
+    text-align: center;
+    height: 720px;
+    .header-table {
+      font-weight: 600;
+      border-bottom: 1px solid #dcdcdc;
+      width: 100%;
+      line-height: 90px;
+    }
+    .body-table {
+      display: none;
+      height: 630px;
+      overflow: auto;
+      table {
+        table-layout:fixed;
+        width: 100%;
+        line-height: 90px;
+        tbody {
+          vertical-align: top;
+        }
+        &:not(:last-child) {
+          border-bottom: 1px solid #dcdcdc;
+        }
+      }
+    }
+  }
+  .no-record {
+    display: none;
+    padding-top: 140px;
+    color: #bbbbbb;
+    text-align: center;
+    font-size: 30px;
+    img {
+      display: block;
+      width: 199px;
+      margin: 0 auto;
+      padding-bottom: 55px;
+    }
+  }
+}

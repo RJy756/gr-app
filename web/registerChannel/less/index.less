@@ -1,0 +1,179 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  font-family: -apple-system, "苹方-简", "Helvetica Neue", Helvetica, sans-serif;
+  background: #fdc848;
+}
+
+body {
+  font-size: 12px;
+  background: #fdc848;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  //position: relative;
+  width: 100%;
+  //height: 100%;
+  .block1 {
+    width: 750px;
+    height: 600px;
+    background: url("../images/banner1.jpg") 0 0 no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 45px;
+  }
+  .form-group{
+    width: 650px;
+    min-height: 580px;
+    text-align: center;
+    margin: 20px auto;
+    .form-item input{
+      border: none;
+      width: 100%;
+      height: 98px;
+      padding-left: 20px;
+      margin-bottom: 39px;
+      border-radius: 12px;
+      background-color: #ffffff;
+    }
+    .vCode-content {
+      position: relative;
+      .btn-get-vCode {
+        position: absolute;
+        top: 22px;
+        right: 10px;
+        color: #fea71b;
+        line-height: 54px;
+        font-size: 26px;
+        border-left: 1px solid #fea71b;;
+        padding: 0 20px 0 0;
+        width: 200px;
+        text-align: right;
+        &.disabled {
+          color: #ddd;
+        }
+      }
+    }
+    .btn-register{
+      width: 650px;
+      height: 98px;
+      line-height: 98px;
+      border-radius: 49px;
+      background-color: #f34429;
+      box-shadow: 0 4px 5.9px 0.1px rgba(221, 58, 32, 0.4);
+      font-family: PingFang-SC;
+      font-size: 36px;
+      font-weight: 500;
+      text-align: center;
+      color: #ffffff;
+    }
+    .tips{
+      margin-top: 25px;
+      width: 100%;
+      height: 25px;
+      font-family: PingFang-SC;
+      font-size: 26px;
+      font-weight: 500;
+      text-align: center;
+      color: #666;
+      .colfff{
+        color: #fff;
+      }
+    }
+  }
+  .block3 {
+    width: 706px;
+    height: 960px;
+    margin: 0 auto;
+    background: url("../images/advantage.png") 0 0 no-repeat;
+    background-size: 100% auto;
+  }
+  footer {
+    margin-top: -40px;
+    color: #666666;;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px 0;
+    line-height: 1.5;
+    .colfd6{
+      color: #fd6b0a;
+    }
+  }
+  .alert-box, .alert-box2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .alert-content {
+      position: relative;
+      top: 40%;
+      background: #363636;
+      color: #fefefe;
+      width: 532px;
+      height: 236px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 5px;
+      .btn-close-alert {
+        position: absolute;
+        width: 37px;
+        display: block;
+        top: 0;
+        right: 0;
+        padding: 15px 15px 0 0;
+      }
+      .alert-text {
+        font-size: 30px;
+        line-height: 230px;
+      }
+    }
+  }
+  .alert-box2 {
+    .alert-content {
+      height: 350px;
+      .btn-left, .btn-right {
+        position: absolute;
+        width: 50%;
+        text-align: center;
+        bottom: 0;
+        padding: 30px 0;
+        border-top: 1px solid #000;
+      }
+      .btn-left {
+        left: 0;
+      }
+      .btn-right {
+        right: 0;
+        border-left: 1px solid #000;
+      }
+      .alert-text {
+        font-size: 30px;
+        line-height: 300px;
+      }
+    }
+  }
+}
