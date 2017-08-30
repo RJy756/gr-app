@@ -1,1 +1,1 @@
-# packaged qpz-apphtml
+# packaged gr-apphtml
